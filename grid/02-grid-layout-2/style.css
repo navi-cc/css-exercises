@@ -5,6 +5,11 @@ html {
 }
 
 .container {
+  display: grid;
+  gap: 15px;
+
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr) repeat(1, 3fr);
   text-align: center;
   height: 100%;
   padding: 16px;
